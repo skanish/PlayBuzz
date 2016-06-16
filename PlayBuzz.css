@@ -1,0 +1,100 @@
+.playBuzzHeader{
+    margin-left: 340px;
+    margin-top: -8px;
+    background-size: cover;
+}
+
+.mainBox{
+    height: auto;
+    background-color: whitesmoke;
+    width: 1903px;
+    margin-left: 340px;
+    padding-top: 70px;
+    margin-top: -8px;
+    padding-bottom: 60px;
+}
+
+.quizBox{
+    height: auto;
+    width: 1703px;
+    background-color: white;
+    margin-left: 100px;
+    padding-top: 10px;
+
+}
+
+.quizTitle{
+    font-family: "Arial Narrow";
+    font-size: 50px;
+    padding-left: 40px;
+
+    /*margin-top: 40px;*/
+}
+
+.hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: 700px;
+    border-style: inset;
+    border-width: .5px;
+}
+
+.question{
+    font-family: "Calibri Light";
+    font-size: 30px;
+    margin-left: 20px;
+    background-color: dodgerblue;
+    opacity: .8;
+    width: 700px;
+    color: white;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.pic{
+    margin-left: 80px;
+}
+
+.answers{
+    font-family: "Calibri";
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.scale{
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+input[type=number]{
+    padding: 7px;
+    font-size: 20px;
+}
+
+input[type=text]{
+    height: 20px;
+    width: 200px;
+}
+
+.submit{
+    margin-top: 20px;
+    height: 30px;
+    width: 85px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.social{
+    margin-left: 10px;
+}
+
+.footer{
+    margin-left: 340px;
+    margin-bottom: -15px;
+}

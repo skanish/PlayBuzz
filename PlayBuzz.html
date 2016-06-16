@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PlayBuzz</title>
+
+    <script src="PlayBuzz.js">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="PlayBuzz.css">
+    
+</head>
+<body>
+
+<div class="playBuzzHeader">
+    <img src="Images/Capture.PNG">
+</div>
+
+<div class="mainBox">
+    <div class="quizBox">
+        <h1 class="quizTitle">What Type of Parent Are You?</h1>
+
+        <div class="hr"></div>
+
+        <h5 class="question">
+            Q1. When you leave the house you...
+        </h5>
+        <img class="pic" src="Images/couple_leaving_house_450.jpg">
+        <div class="answers">
+            <label><input type="checkbox" name="q1" value="4">Check that all your kids are with you</label><br/>
+            <label><input type="checkbox" name="q1" value="1">Make sure to leave the oven and stove on</label><br/>
+            <label><input type="checkbox" name="q1" value="3">Take your children leashes with you</label><br/>
+            <label><input type="checkbox" name="q1" value="2">You have more than 2 kids so you don't leave the house anymore</label><br/>
+        </div>
+
+        <h5 class="question">
+            Q2. When it's the kids bed time you...
+        </h5>
+        <img class="pic" src="Images/bedtime.jpg">
+        <div class="answers">
+            <label><input type="radio" name="q2" value="2">Let the kids run wild until they pass out</label><br>
+            <label><input type="radio" name="q2" value="1">Tie your kids to their beds and turn off the light</label><br>
+            <label><input type="radio" name="q2" value="4">Tell them a bed time story</label><br>
+            <label><input type="radio" name="q2" value="3">Get your spouse to put them to sleep</label><br>
+        </div>
+
+        <h5 class="question">
+            Q3. When it's YOUR bed time you drink ___ cups of wine
+        </h5>
+        <img class="pic" src="Images/wine.jpg">
+            <div class="answers">Cups of wine (between 1 and 4):
+            <input type="number" id="quantity" min="1" max="4">
+            </div>
+
+        <h5 class="question">
+            Q4. On the scale from L-R (L being least and R being most) how excited are your kids when you walk in the door?
+        </h5>
+        <img class="pic" src="Images/kid.jpg">
+        <div class="answers">
+            Scale: <input class="scale" type="range" id="slider" min="1" max="4" value="0">
+        </div>
+
+        <h5 class="question">
+            Enter your name and email for the best parenting tips
+        </h5>
+        <img class="pic" src="Images/meme.jpg">
+        <div class="answers">
+            Name:<br>
+            <input type="text" id="Name">
+            <br>
+            E-mail:<br>
+            <input type="text" id="Email">
+            <br>
+        </div>
+
+        <div>
+            <button class="submit" onclick="getResult();">Submit</button>
+        </div>
+
+        <div class="social">
+            <img src="Images/social.png">
+        </div>
+
+    </div>
+</div>
+
+<div>
+    <img class="footer" src="Images/footer.PNG">
+</div>
+
+</body>
+</html>
